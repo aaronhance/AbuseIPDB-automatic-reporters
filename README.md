@@ -1,2 +1,2 @@
-# AbuseIPSB-automatic-reporters
+# AbuseIPDB-automatic-reporters
 Python scripts for IP reporting
