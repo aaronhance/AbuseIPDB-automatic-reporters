@@ -17,9 +17,9 @@ api_endpoint = "https://api.abuseipdb.com/api/v2/bulk-report"
 # END CONFIGURATION
 
 # Uncomment for auto grabbing and rotating of auth log file
-# os.system('grep sshd.\\*Failed /var/log/auth.log > log.txt')
-# os.system('mv /var/log/auth.log \"/var/log/auth.' + str(datetime.datetime.now()) + '.log\"')
-# f= open("/var/log/auth.log","w+")
+#os.system('grep sshd.\\*Failed /var/log/auth.log > log.txt')
+#os.system('cp /var/log/auth.log \"/var/log/auth.' + str(datetime.datetime.now()) + '.log\"')
+#os.system('> /var/log/auth.log')
 
 api_header = {'Accept': 'application/json', 'Key': api_key}
 responses = []
