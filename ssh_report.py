@@ -2,7 +2,7 @@ import re, csv, json, requests, os, datetime
 
 # INFO
 # 
-# Made by Aaron Hance https://github.com/aaronhance/AbuseIPSB-automatic-reporters
+# Made by Aaron Hance https://github.com/aaronhance/AbuseIPDB-automatic-reporters
 # This is a Python3 script for bulk reporting SSH brute force attempts.
 #
 # Use the following command to manually get failed SSH logins, or uncomment the automatic log grabbing below.
